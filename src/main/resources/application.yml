@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: Bai4_IT213_SS04
+
+    ai:
+        openai:
+            api-key: ${OPEN_ROUTER_API_KEY}
+            base-url: https://openrouter.ai/api/v1
+            chat:
+                options:
+                    model: openai/gpt-4o-mini
+                    temperature: 0.3
+
